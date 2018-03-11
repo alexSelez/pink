@@ -5,7 +5,7 @@
   <title>Pink</title>
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
   <link href="css/normalize.css" rel="stylesheet">
-  <link href="css/style.css" rel="stylesheet">
+  <link href="build/css/style.css" rel="stylesheet">
 </head>
 <body>
   <header class="main-header">
@@ -13,45 +13,42 @@
       <a href="index.html" class="logo">
         <img src="img/light-pink-logo.png" alt="logo pink" class="logo__img">
       </a>
-      <ul class="nav-site">
-        <li class="nav-site__item">Главная</li>
-        <li class="nav-site__item">Фотографии</li>
-        <li class="nav-site__item">Конкурс</li>
-        <li class="nav-site__item">Html Academy</li>
+      <ul class="main-nav__list">
+        <li class="main-nav__item"><a href="#" class="main-nav__link main-nav__link--current_"></a>Главная</li>
+        <li class="main-nav__item"><a href="#" class="main-nav__link"></a>Фотографии</li>
+        <li class="main-nav__item"><a href="#" class="main-nav__link"></a>Конкурс</li>
+        <li class="main-nav__item"><a href="#" class="main-nav__link"></a>Html Academy</li>
       </ul>
     </nav>
+  </header>
+
+  <main class="main-page">
+
     <section class="download">
       <h2 class="visually-hidden">Загрузка приложения</h2>
       <p class="download__caption">
         Взгляните на жизнь иначе!
       </p>
       <a href="#" class="download__link">Скачать приложение</a>
-      <ul class="os-list">
-        <li class="os-list__item">
-          <a href="#" class="os-list__link">
-            <span class="visually-hidden">скачать на ios</span>
-            <img class="os-list__img" src="http://placehold.it/50x50" alt="иконка apple">
-          </a>
+      <ul class="download-list">
+        <li class="download__item">
+          <span class="visually-hidden">скачать на ios</span>
+          <img class="download__icon" src="http://placehold.it/50x50" alt="иконка apple">
         </li>
-        <li class="os-list__item">
-          <a href="#" class="os-list__link">
-            <span class="visually-hidden">скачать на android</span>
-            <img class="os-list__img" src="http://placehold.it/50x50" alt="иконка android">
-          </a>
+        <li class="download__item">
+          <span class="visually-hidden">скачать на android</span>
+          <img class="download__icon" src="http://placehold.it/50x50" alt="иконка android">
         </li>
-        <li class="os-list__item">
-          <a href="#" class="os-list__link">
-            <span class="visually-hidden">скачать на windows</span>
-            <img class="os-list__img" src="http://placehold.it/50x50" alt="иконка windows">
-          </a>
+        <li class="download__item">
+          <span class="visually-hidden">скачать на windows</span>
+          <img class="download__icon" src="http://placehold.it/50x50" alt="иконка windows">
         </li>
       </ul>
       <p class="download_description">
       Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8
       </p>
     </section>
-  </header>
-  <main class="main-page">
+
     <section class="advantage">
       <p class="advantage__caption">Устали от серости мегаполиса? Нам есть, что вам предложить!</p>
       <ul class="advantage__list">
